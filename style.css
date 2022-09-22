@@ -1,0 +1,711 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+  }
+                                   /*navbar-->*/
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    transition: all 0.4s ease;
+    background-color: #7FFFD4;
+  }
+  nav .nav-content{
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav .logo{
+    display: flex;
+  }
+  nav .logo .isilogo{
+    margin-top: 5px;
+  }
+  nav .logo a{
+    font-weight: 500;
+    font-size: 20px;
+    color: #4070f4;
+  }
+  .nav-content .nav-links{
+    display: flex;
+  }
+  .nav-content .nav-links li{
+    list-style: none;
+    margin: 0 8px;
+  }
+   .nav-links li a{
+    text-decoration: none;
+    color: #0E2431;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 4px;
+    transition: all 0.3s ease;
+  }
+   .nav-links li a:hover{
+     color: #4070f4;
+   }
+                                         /*end navbar*/
+                                         /*home content*/
+   .home-content{
+    height: 100vh;
+    width: 100%;
+    margin-top: 90px;
+    background: #E0FFFF;
+  }
+  .home-content .align-text-center {
+    margin-left: 520px;
+    margin-top: 100px;
+  }
+  .home-content .isi {
+    text-align: center;
+  }
+
+  .row-1 {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    background-color: #E0FFFF;
+  }
+  
+  .column {
+    flex: 50%;
+    margin-top: 105px;
+    margin-left: 50px;
+  }
+  .column h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .column .vokasi {
+    margin-left: 50px;
+  }
+                                                  /*laboratorium.html*/
+.kumpulan-lab {
+  width: 100%;
+  height: 100vh;
+  background-color: #FAFAD2;
+}
+.kumpulan-lab h1 {
+  padding-top: 150px;
+  padding-left: 70px;
+}
+.kumpulan-lab ul {
+  padding-top: 20px;
+  padding-left: 120px;
+}
+.kumpulan-lab  ul li a {
+  font-size: 16px;
+	text-transform: capitalize;
+	color: #000;
+	text-decoration: none;
+	font-weight: 300;
+	color: #000;
+	display: block;
+	transition: all 0.3s ease;
+  margin-top: 10px;
+}
+.kumpulan-lab ul li a:hover{
+	color: #B0C4DE;
+	padding-left: 8px;
+}
+
+                                                  /*lab_mesin_listrik.html*/
+.lab-mesin {
+  width: 100%;
+  height: 300vh;
+  background-color: #E0FFFF;
+}
+.lab-mesin h1 {
+  padding-top: 110px;
+  padding-left: 70px;
+}
+.lab-mesin h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.lab-mesin .diskusi-tml {
+  margin-left: 395px;
+  margin-top: 20px;
+}
+.lab-mesin .isi-tml {
+  height: 195vh;
+  width: 150vh;
+  background-color: #E6E6FA;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+.lab-mesin .isi-tml h5 {
+  font-size: 15px;
+  margin-top: 15px;
+}
+.lab-mesin .isi-tml .awal-tml {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.lab-mesin .isi-tml .hasil-tml {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+                                             /*end mesin listrik*/
+                                             /*listrik dasar*/
+.lab-ld {
+  width: 100%;
+  height: 320vh;
+  background-color: #E0FFFF;
+}
+.lab-ld h1 {
+  padding-top: 110px;
+  padding-left: 70px;
+}
+.lab-ld h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.lab-ld .awal-ld {
+  margin-left: 395px;
+  margin-top: 20px;
+}
+.lab-ld .isi-ld {
+  height: 215vh;
+  width: 150vh;
+  background-color: #E6E6FA;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+.lab-ld .isi-ld .macam {
+  margin-left: 20px;
+}
+.lab-ld .isi-ld .materi {
+  margin-left: 20px;
+}
+.lab-ld .isi-ld .dc-ld {
+  margin-left: 60px;
+  margin-top: 15px;
+}
+.lab-ld .isi-ld .jepit-buaya-ld {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.lab-ld .isi-ld .panel-uji-ld {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.lab-ld .isi-ld .alat {
+  margin-left: 30px;
+  padding-top: 10px;
+}
+                                              /*end listrik dasar*/
+                                              /*instalasi listrik*/
+.lab-il {
+  width: 100%;
+  height: 180vh;
+  background-color: #E0FFFF;
+}
+.lab-il h1 {
+  padding-top: 110px;
+  padding-left: 70px;
+}
+.lab-il h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.lab-il .awal-il {
+  margin-left: 395px;
+  margin-top: 20px;
+}
+.lab-il .isi-il {
+  height: 75vh;
+  width: 150vh;
+  background-color: #E6E6FA;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+.lab-il .isi-il .motor-il {
+  margin-left: 350px;
+  margin-top: 10px;
+}
+                                                   /*end instalasi listrik*/
+                                                   /*otomasi industri*/
+.lab-oi {
+  width: 100%;
+  height: 183vh;
+  background-color: #E0FFFF;
+}
+.lab-oi h1 {
+  padding-top: 110px;
+  padding-left: 70px;
+}
+.lab-oi h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.lab-oi .awal-oi {
+  margin-left: 395px;
+  margin-top: 20px;
+}
+.lab-oi .isi-oi {
+  height: 78vh;
+  width: 150vh;
+  background-color: #E6E6FA;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+.lab-oi .isi-oi .microcontroler-oi {
+  margin-left: 320px;
+  margin-top: 5px;
+}
+                                                       /*end otomasi industri*/
+                                                       /*bengkel elektrik*/
+.lab-be {
+  width: 100%;
+  height: 185vh;
+  background-color: #E0FFFF;
+}
+.lab-be h1 {
+  padding-top: 110px;
+  padding-left: 70px;
+}
+.lab-be h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.lab-be .awal-be {
+  margin-left: 395px;
+  margin-top: 20px;
+}
+.lab-be .isi-be {
+  height: 82vh;
+  width: 150vh;
+  background-color: #E6E6FA;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+.lab-be .isi-be .materi {
+  margin-top: 5px;
+}
+.lab-be .isi-be .laser-be {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.lab-be .isi-be .pemotong-be {
+  margin-left: 100px;
+  margin-top: 5px;
+}
+                                                  /*end bengkel elektrik*/
+                                                  /*elektronika dasar*/
+.lab-ed {
+  width: 100%;
+  height: 200vh;
+  background-color: #E0FFFF;
+}
+.lab-ed h1 {
+  padding-top: 110px;
+  padding-left: 70px;
+}
+.lab-ed h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.lab-ed .awal-ed {
+  margin-left: 395px;
+  margin-top: 20px;
+}
+.lab-ed .isi-ed {
+  height: 93vh;
+  width: 150vh;
+  background-color: #E6E6FA;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+.lab-ed .isi-ed .materi {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+.lab-ed .isi-ed .isi-materi {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 130px;
+}
+                                                 /*end elektronika dasr*/
+                                                 /*ketenaggan listrik*/
+.lab-kl {
+  width: 100%;
+  height: 245vh;
+  background-color: #E0FFFF;
+}
+.lab-kl h1 {
+  padding-top: 110px;
+  padding-left: 70px;
+}
+.lab-kl h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.lab-kl .awal-kl {
+  margin-left: 395px;
+  margin-top: 20px;
+}
+.lab-kl .isi-kl {
+  height: 140vh;
+  width: 150vh;
+  background-color: #E6E6FA;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+.lab-kl .isi-kl .materi {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+                                                  /*end ketenagaan listrik*/
+                                                  /*elektronika lanjut*/
+.lab-el {
+  width: 100%;
+  height: 180vh;
+  background-color: #E0FFFF;
+}
+.lab-el h1 {
+  padding-top: 110px;
+  padding-left: 70px;
+}
+.lab-el h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.lab-el .awal-el {
+  margin-left: 395px;
+  margin-top: 20px;
+}
+.lab-el .isi-el {
+  height: 75vh;
+  width: 150vh;
+  background-color: #E6E6FA;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+.lab-el .isi-el .materi {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+                                                      /*end elektronika lanjut*/
+                                                      /*instrumentasi dan kendali*/
+.lab-rdk {
+  width: 100%;
+  height: 230vh;
+  background-color: #E0FFFF;
+}   
+.lab-rdk h1 {
+  padding-top: 110px;
+  padding-left: 70px;
+}
+.lab-rdk h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.lab-rdk .awal-rdk {
+  margin-left: 395px;
+  margin-top: 20px;
+}
+.lab-rdk .isi-rdk {
+  height: 122vh;
+  width: 150vh;
+  background-color: #E6E6FA;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+.lab-rdk .isi-rdk .arduino-rdk {
+  margin-left: 300px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.lab-rdk .isi-rdk .materi {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}                                                
+                                                            /*end instrumentasi dan kendali*/
+                                                            /*perangkat keras komputer*/
+.lab-pk {
+  width: 100%;
+  height: 190vh;
+  background-color: #E0FFFF;
+}
+.lab-rpkdk h1 {
+  padding-top: 110px;
+  padding-left: 70px;
+}
+.lab-pk h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.lab-pk .awal-pk {
+  margin-left: 395px;
+  margin-top: 20px;
+}
+.lab-pk .isi-pk {
+  height: 100vh;
+  width: 150vh;
+  background-color: #E6E6FA;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+.lab-pk .isi-pk .materi {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}              
+
+
+
+
+
+                                                  /*footer*/
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+  height: 78vh;
+    padding: 70px 0;
+}
+.footer-col{
+  width: 50%;
+  padding: 0 15px;
+}
+.footer-col .sekolah {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 80px;
+}
+.footer-col .lab {
+  margin-left: 100px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer .penanda {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: #A9A9A9;
+}
+.penanda h4 {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+                                                  /*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}*/
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                  
