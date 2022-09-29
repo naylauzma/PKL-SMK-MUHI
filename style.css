@@ -518,6 +518,63 @@
   margin-top: 15px;
 }              
                                            /*end perangkat komputer*/
+                                           /*telkom*/
+.lab-lt {
+  width: 100%;
+  height: 385vh;
+  background-color: #E0FFFF;
+}
+.lab-lt h1 {
+  padding-top: 110px;
+  padding-left: 70px;
+}
+.lab-lt h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.lab-lt .awal-lt {
+  margin-left: 395px;
+  margin-top: 20px;
+}
+.lab-lt .isi-lt {
+  height: 280vh;
+  width: 150vh;
+  background-color: #E6E6FA;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+.lab-lt .isi-lt .ols-lt {
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.lab-lt .isi-lt .opm-lt {
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.lab-lt .isi-lt .fiber-lt {
+  margin-left: 180px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.lab-lt .isi-lt .spliter-lt {
+  margin-left: 180px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.lab-lt .isi-lt .otdr-lt {
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+          
+                                        
                                            /*contact*/
 .contact {
   width: 100%;
@@ -606,19 +663,17 @@ ul{
 	padding-left: 8px;
 }
 .footer .penanda {
-  display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
   margin-top: 50px;
   width: 100%;
   height: 50px;
+  padding-top: 15px;
   background-color: #A9A9A9;
 }
-.penanda h4 {
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+.penanda p {
+  font-size: 11px;
 }
-
 
 
 
